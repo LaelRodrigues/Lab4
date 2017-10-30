@@ -70,10 +70,10 @@ template <typename T>
 
 Node<T>::Node() : valor(), proximo(nullptr) {}
 
-template <typename T>
 /**
  * @param _valor elemento do node
  */
+template <typename T>
 Node<T>::Node(T _valor) : valor(_valor), proximo(nullptr) {}
 
 template <typename T>

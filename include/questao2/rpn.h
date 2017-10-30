@@ -18,8 +18,7 @@ using std::string;
 /**
  * @brief Funcao que calcula o valor de um determinada 
  *		  expressao escrita na notacao polonesa inversa
- * @param tam quantidade de argumentos da expressao
- * @param argumentos elementos que compoem a expressao
+ * @param expressao Expressao a ser calculada
  * @return o valor do calculo da expressao
  */
 int calcValorExpressao(string expressao);
