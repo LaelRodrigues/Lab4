@@ -38,13 +38,9 @@ int calcValorExpressao(string expressao) {
 	int operador2;
 	int cont;
 
-
 	char num[] = {'0','1','2','3','4','5','6','7','8','9'};
 
-	cout << (int)expressao.size() << endl;
-
 	for(int i = 0; i < (int)expressao.size(); i++) {
-		cout << "ex: " << expressao[i] << endl;
 		cont = 0;
 		if(expressao[i] == '+') {
 			if(pilha.size() < 2) {
@@ -114,7 +110,6 @@ int calcValorExpressao(string expressao) {
 			}
 			int valor = (int)expressao[i] - 48;
 			pilha.push(valor);
-			cout << pilha.top() << endl;
 		}
 	}
 

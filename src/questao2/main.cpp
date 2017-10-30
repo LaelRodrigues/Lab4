@@ -27,9 +27,6 @@ int main() {
 	cout << "Digite a expressao: ";
 	getline(cin,expressao);
 
-	cout << expressao.size() << endl;
-	cout << expressao << endl;
-
 	int result = calcValorExpressao(expressao);
 	cout << "O valor resultante da expressao e: " << result << endl;
 	return EXIT_SUCCESS;
